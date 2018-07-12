@@ -1,3 +1,5 @@
 *.ipynb_checkpoints
 __pycache__
 files
+metastore_db
+derby.log
