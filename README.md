@@ -11,20 +11,20 @@ PySpark Installation for Windows
 3. Create the folder C:\tmp\hive
 3. Run the following steps:
 
-    ```cmd
-    > set HADOOP_HOME=C:\username\Downloads\hadoop
-    > set PATH=%HADOOP_HOME%\bin;%PATH%
-    > winutils.exe chmod -R 777 C:\tmp\hive
-    ```
+```bash
+> set HADOOP_HOME=C:\username\Downloads\hadoop
+> set PATH=%HADOOP_HOME%\bin;%PATH%
+> winutils.exe chmod -R 777 C:\tmp\hive
+```
 
 4. Locate the Spark folder (suppose it is C:\username\Downloads\spark), and run:
 
-    ```cmd
-    > set SPARK_HOME=C:\username\Downloads\spark
-    > set PATH=%SPARK_HOME%\bin;%PATH%
-    > set PYSPARK_DRIVER_PYTHON=jupyter
-    > set PYSPARK_DRIVER_PYTHON_OPTS='notebooks'
-    ```
+```bash
+> set SPARK_HOME=C:\username\Downloads\spark
+> set PATH=%SPARK_HOME%\bin;%PATH%
+> set PYSPARK_DRIVER_PYTHON=jupyter
+> set PYSPARK_DRIVER_PYTHON_OPTS='notebooks'
+```
 
 Download and Install Tutorial Material
 --------------------------------------
