@@ -4,3 +4,4 @@ files
 files.zip
 metastore_db
 derby.log
+*.swp
